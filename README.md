@@ -1,6 +1,6 @@
 # Quadcopter movement control using a set of fuzzy rules
 
-Let's say we have a stick with two propellers on either end. Can we manipulate the firing sequence of the two propellers we have so that we can go to a specific setpoint on the 2D plane?
+Let's say we have a stick with two propellers on either end (Let's call this our quadcopter). Can we manipulate the firing sequence of the two propellers we have so that we can go to a specific setpoint on the 2D plane?
 
 This project attempts to address this problem by using the **scikit-learn Fuzzy Logic toolbox** to compute propeller thrust intensities.
 
