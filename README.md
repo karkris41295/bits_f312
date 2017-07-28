@@ -8,4 +8,6 @@ There are two files in this repository:
 1. quadcopter2d.py - The full code which consists of the fuzzy rule base, quadcopter simulation and plotting
 2. fuzzy_control.py - Just the fuzzy rule base without the rest of the code
 
+*Note: So far, the code is only able to meet the set altitude target (y-axis) but wanders off in the horizontal direction (x-axis), due to the controller's inability in stabilizing the inclination of the quadcopter well enough.*
+
 This code was written as an assignment for a Fuzzy Logic & Neural Networks course.
